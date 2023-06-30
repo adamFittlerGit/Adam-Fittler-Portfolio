@@ -7,6 +7,10 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from "../utils/motion";
 
+//kxvkwj7QeYSlzMr8F
+//template_9mg5zmv
+//service_p1xr43r
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -17,9 +21,42 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {}
+    setForm({ ...form, [name]: value})
+  }
+
+  const handleSubmit = (e) => {
+    e.peventDefault();
+    setLoading(true);
+    //kxvkwj7QeYSlzMr8F
+    //template_9mg5zmv
+    //service_p1xr43r
+    emailjs.send(
+      "service_p1xr43r", 
+      "template_9mg5zmv", 
+      { from_name: form.name, 
+        to_name: Adam, 
+        from_email: form.email,
+        to_email: 'adam@gyw.com.au',
+        message: form.message,
+      },
+      'kxvkwj7QeYSlzMr8F')
+      .then(() => {
+        setLoading(false);
+        alert("Thank you. I will get back to you as soon as possible.");
+        setForm({
+          name: '',
+          email: '',
+          message: '',
+        }, (error) => {
+          console.log(error);
+
+          alert('Something went wrong.')
+        })
+      })
+  }
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -59,7 +96,7 @@ const Contact = () => {
               <span className="text-white font-medium mb-4">Your Message</span>
               <textarea
                 rows="7"
-                name="messgae"
+                name="message"
                 value={form.message}
                 onChange={handleChange}
                 placeholder="What do you want to say?"
