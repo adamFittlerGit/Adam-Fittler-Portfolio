@@ -42,21 +42,25 @@ import {
   
   const services = [
     {
-      title: "Frontend Developer",
+      title: "Bachelor of Software Engineering (UQ)",
       icon: web,
     },
     {
-      title: "Backend Developer",
+      title: "Cybersecuirty and Ethical Hacking Super Intern (Edreuka)",
       icon: backend,
     },
     {
-      title: "Cybersecuity Expert",
+      title: "Certified Front-End Engineer (Codecademy)",
       icon: mobile,
     },
     {
-      title: "Machine Learning Engineer",
+      title: "Certified Back-End Engineer (Codecademy)",
       icon: creator,
     },
+    {
+      title: "Certified Data Scientist: Machine Learning (Codecademy)",
+      icon: creator,
+    }
   ];
   
   const technologies = [
