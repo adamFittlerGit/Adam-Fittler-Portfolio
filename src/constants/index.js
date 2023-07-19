@@ -42,23 +42,19 @@ import {
   
   const services = [
     {
-      title: "Bachelor of Software Engineering (UQ)",
+      title: "Full Stack Engineer",
       icon: web,
     },
     {
-      title: "Cybersecuirty and Ethical Hacking Super Intern (Edreuka)",
+      title: "Cyber Secuirty Analyst",
       icon: backend,
     },
     {
-      title: "Certified Front-End Engineer (Codecademy)",
+      title: "ML/AI Engineer",
       icon: mobile,
     },
     {
-      title: "Certified Back-End Engineer (Codecademy)",
-      icon: creator,
-    },
-    {
-      title: "Certified Data Scientist: Machine Learning (Codecademy)",
+      title: "Unreal Engine Developer",
       icon: creator,
     }
   ];
@@ -116,16 +112,16 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Web Design and Data Entry",
+      company_name: "Grow Your Wealth",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Utilising wordpress to make UI and UX upgrades, integrating mail poet and jotforms.",
+        "Data entry of stock market equities, wrote a web scraping script in python to automate this.",
+        "Providing general IT support and assisting in system troubleshooting.",
+        "Recreation of the Happy Tax Website using React.js.",
       ],
     },
     {
