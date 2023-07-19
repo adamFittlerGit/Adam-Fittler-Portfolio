@@ -35,14 +35,17 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I am a skilled software engineer with experience in 
-        FullStackDevelopment, Cybersecurity and Machine Learning.
+        I am a third year software engineering student at the Univeristy of 
+        Queensland.  I enjoy all areas of tech, focusing my studies on 
+        Software Engineering Processes and Lifecycles, Machine Learning, 
+        Cybersecuirty, Fullstack Webdevelopment and Game Development.  
+        <br />
         I'm a dedicated and fast learner and have experience collaborating 
         closely with individual clients as well as businesses.  I have 
         woked on many indidivual and group sofware development projects both 
         single and multi diciplinary.  I love creating scalable solutions 
-        with an emphasis on user experience and effectiveness.  Let's work 
-        together to bring your ideas to life! 
+        with an emphasis on user experience, effectiveness and data security.  
+        Let's work together to bring your ideas to life! 
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
