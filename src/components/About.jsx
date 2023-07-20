@@ -42,7 +42,7 @@ const About = () => {
         <br />
         I'm a dedicated and fast learner and have experience collaborating 
         closely with individual clients as well as businesses.  I have 
-        woked on many indidivual and group sofware development projects both 
+        worked on many indidivual and group sofware development projects both 
         single and multi diciplinary.  I love creating scalable solutions 
         with an emphasis on user experience, effectiveness and data security.  
         Let's work together to bring your ideas to life! 
