@@ -196,7 +196,7 @@ import {
     {
       name: "Power Link",
       description:
-        "This app allows for powerlifting coaches and athletes to communicate effecictely and easily in one place.  Allowing coaches to send their athletes their programs and form advice as well as allowing athlets to easily upload their technique videos and chat with their coaches.",
+        "This app allows for powerlifting coaches and athletes to communicate effecictely and easily in one place.  Allowing coaches to send their athletes their programs and form advice as well as allowing athletes to easily upload their technique videos and chat with their coaches. Im also working on adding a game fearture.",
       tags: [
         {
           name: "nextjs",
