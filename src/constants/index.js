@@ -194,6 +194,27 @@ import {
   
   const projects = [
     {
+      name: "Power Link",
+      description:
+        "This app allows for powerlifting coaches and athletes to communicate effecictely and easily in one place.  Allowing coaches to send their athletes their programs and form advice as well as allowing athlets to easily upload their technique videos and chat with their coaches.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tesla,
+      source_code_link: "https://github.com/",
+    },
+    {
       name: "Filmpire",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
@@ -236,7 +257,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Money Hub",
+      name: "Sumz",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
@@ -257,7 +278,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Greedy Pig",
+      name: "Avax Gods",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
@@ -275,27 +296,6 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Stock Scraper",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tesla,
       source_code_link: "https://github.com/",
     },
     {
@@ -320,7 +320,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Code GPT",
+      name: "Stock Scraper",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
