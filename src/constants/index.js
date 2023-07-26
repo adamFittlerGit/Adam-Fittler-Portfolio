@@ -121,7 +121,6 @@ import {
         "Utilising wordpress to make UI and UX upgrades, integrating mail poet and jotforms.",
         "Data entry of stock market equities, wrote a web scraping script in python to automate this.",
         "Providing general IT support and assisting in system troubleshooting.",
-        "Recreation of the Happy Tax Website using React.js.",
       ],
     },
     {
@@ -299,27 +298,6 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Ecommerce Store",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tesla,
-      source_code_link: "https://github.com/",
-    },
-    {
       name: "Stock Scraper",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
@@ -341,7 +319,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "CSSE3200 Project",
+      name: "Escape Earth",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
@@ -362,7 +340,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Ethical Hacking Certification Project",
+      name: "Pytorch Project",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
@@ -383,49 +361,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "ML TensorFlow Project",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tesla,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "INFS3202 Project",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tesla,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Unreal Engine Project",
+      name: "Cyber Project",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
