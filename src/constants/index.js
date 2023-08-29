@@ -217,7 +217,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Sumz",
+      name: "Usum",
       description:
         "A clean user interface that allows the user to interact with and use the summarizer AI API provided by Rapid API. The application allows the user to input a link to an article then it uses the Summarizer API to return the summarized article.  I developed this application in order to help me complete my weekly university readings while still having time to work on my own projects. ",
       tags: [
@@ -238,51 +238,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Avax Gods",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Stock Scraper",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tesla,
-      source_code_link: "https://github.com/",
-    },
-    {
       name: "Escape Earth",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Earth has been deemed uninhabitable, your mission is to travel among the stars and find a new planet and make it habitable to support life! This is a small open source farming simulation game that allows users to create their farm, plant crops, crow them and defend them from the new hostile world that you find youself in.  Created in an open source group.",
       tags: [
         {
           name: "java",
@@ -291,6 +249,10 @@ import {
         {
           name: "libgdx",
           color: "green-text-gradient",
+        },
+        {
+          name: "git workflows",
+          color: "pink-text-gradient",
         },
       ],
       image: tesla,
@@ -316,28 +278,7 @@ import {
       ],
       image: tesla,
       source_code_link: "https://github.com/",
-    },
-    {
-      name: "Cyber Project",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tesla,
-      source_code_link: "https://github.com/",
-    },
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };
