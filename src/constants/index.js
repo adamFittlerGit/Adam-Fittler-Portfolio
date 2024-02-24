@@ -15,14 +15,13 @@ import {
     git,
     figma,
     docker,
-    meta,
     starbucks,
     tesla,
-    shopify,
     carrent,
     jobit,
-    tripguide,
-    threejs,
+    rheinmetall,
+    escape_earth,
+    oasis_brain,
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +41,19 @@ import {
   
   const services = [
     {
-      title: "Full Stack Engineer",
+      title: "Deep Learning",
       icon: web,
     },
     {
-      title: "Cyber Secuirty Analyst",
+      title: "Fullstack Web ",
       icon: backend,
     },
     {
-      title: "ML/AI Engineer",
+      title: "Cybersecurity",
       icon: mobile,
     },
     {
-      title: "Unreal Engine Developer",
+      title: "Game Dev",
       icon: creator,
     }
   ];
@@ -116,11 +115,23 @@ import {
       company_name: "Grow Your Wealth",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2020 - November 2023",
       points: [
         "Utilising wordpress to make UI and UX upgrades, integrating mail poet and jotforms.",
         "Data entry of stock market equities, wrote a web scraping script in python to automate this.",
         "Providing general IT support and assisting in system troubleshooting.",
+      ],
+    },
+    {
+      title: "Defense Software Intern",
+      company_name: "Rheinmetall Australia",
+      icon: rheinmetall,
+      iconBg: "#383E56",
+      date: "November 2023 - Feburary 2024",
+      points: [
+        "Integration of different software technologies for the purpose of system emulation.",
+        "Mapping of exisiting software architecture and understanding system protocols.",
+        "Use of the jira software for sprint planning and running sprints as a scrum master.",
       ],
     }
   ];
@@ -154,27 +165,6 @@ import {
   
   const projects = [
     {
-      name: "Power Link",
-      description:
-        "This app allows for powerlifting coaches and athletes to communicate effecictely and easily in one place.  Allowing coaches to send their athletes their programs and form advice as well as allowing athletes to easily upload their technique videos and chat with their coaches. Im also working on adding a game fearture.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tesla,
-      source_code_link: "https://github.com/",
-    },
-    {
       name: "Filmpire",
       description:
         "A web application that is the lovechild of Netflix and IMDb, Filmpire allows users to browse movies using a visually stunning UI that is fully responsive.  The application also leverages the alan AI, to allow user to search using voice commands.  I really enjoyed building this application and learn a ton throught the development process. ",
@@ -198,7 +188,7 @@ import {
     {
       name: "Cryptoket",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This application harnesses the very latest software technologies to create a marketplace for buying and selling NFTs, it also comes with fun and exciting minigames that users can play.  It is a great project that allowed me to further develop my software skills and take the next step into more complex development environments.  ",
       tags: [
         {
           name: "react",
@@ -217,30 +207,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Usum",
-      description:
-        "A clean user interface that allows the user to interact with and use the summarizer AI API provided by Rapid API. The application allows the user to input a link to an article then it uses the Summarizer API to return the summarized article.  I developed this application in order to help me complete my weekly university readings while still having time to work on my own projects. ",
-      tags: [
-        {
-          name: "reactjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "rapidapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwindcss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tesla,
-      source_code_link: "https://github.com/",
-    },
-    {
       name: "Escape Earth",
       description:
-        "Earth has been deemed uninhabitable, your mission is to travel among the stars and find a new planet and make it habitable to support life! This is a small open source farming simulation game that allows users to create their farm, plant crops, crow them and defend them from the new hostile world that you find youself in.  Created in an open source group.",
+        "Earth has been deemed uninhabitable, your mission is to travel among the stars and find a new planet and make it habitable to support life! This is a small open source farming simulation game that allows users to create their farm, plant crops, crow them and defend them from the new hostile world that you find youself in.",
       tags: [
         {
           name: "java",
@@ -255,29 +224,134 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tesla,
-      source_code_link: "https://github.com/",
+      image: escape_earth,
+      source_code_link: "https://github.com/UQcsse3200/2023-studio-1",
     },
     {
-      name: "Pytorch Project",
+      name: "StyleGAN2 Oasis Brain Generation",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This project utilises the StyleGAN2 research paper to fully recreate the model and use it in order to be able to generate synthetic brain scan images learnt from the oasis brain dataset.  The inclusion of the style vectors allow for the model to reproduce images with different amounts of brain images featured.  Thus, showing the power of the updated models style vector. You cna learn more in the read me. ",
       tags: [
         {
-          name: "nextjs",
+          name: "pytorch",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "cuda",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "github",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: oasis_brain,
+      source_code_link: "https://github.com/adamFittlerUQ/PatternAnalysis-2023/tree/topic-recognition/recognition/OASIS-Style-GAN2-s4696807",
+    },
+    {
+      name: "Comp4702 Project",
+      description:
+        "This project utilises the StyleGAN2 research paper to fully recreate the model and use it in order to be able to generate synthetic brain scan images learnt from the oasis brain dataset.  The inclusion of the style vectors allow for the model to reproduce images with different amounts of brain images featured.  Thus, showing the power of the updated models style vector. You cna learn more in the read me. ",
+      tags: [
+        {
+          name: "pytorch",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "cuda",
+          color: "green-text-gradient",
+        },
+        {
+          name: "github",
           color: "pink-text-gradient",
         },
       ],
       image: tesla,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/adamFittlerUQ/PatternAnalysis-2023/tree/topic-recognition/recognition/OASIS-Style-GAN2-s4696807",
+    },
+    {
+      name: "COMS4507 Project",
+      description:
+        "This project utilises the StyleGAN2 research paper to fully recreate the model and use it in order to be able to generate synthetic brain scan images learnt from the oasis brain dataset.  The inclusion of the style vectors allow for the model to reproduce images with different amounts of brain images featured.  Thus, showing the power of the updated models style vector. You cna learn more in the read me. ",
+      tags: [
+        {
+          name: "pytorch",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "cuda",
+          color: "green-text-gradient",
+        },
+        {
+          name: "github",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tesla,
+      source_code_link: "https://github.com/adamFittlerUQ/PatternAnalysis-2023/tree/topic-recognition/recognition/OASIS-Style-GAN2-s4696807",
+    },
+    {
+      name: "DECO3801 Project",
+      description:
+        "This project utilises the StyleGAN2 research paper to fully recreate the model and use it in order to be able to generate synthetic brain scan images learnt from the oasis brain dataset.  The inclusion of the style vectors allow for the model to reproduce images with different amounts of brain images featured.  Thus, showing the power of the updated models style vector. You cna learn more in the read me. ",
+      tags: [
+        {
+          name: "pytorch",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "cuda",
+          color: "green-text-gradient",
+        },
+        {
+          name: "github",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tesla,
+      source_code_link: "https://github.com/adamFittlerUQ/PatternAnalysis-2023/tree/topic-recognition/recognition/OASIS-Style-GAN2-s4696807",
+    },
+    {
+      name: "Thesis Project",
+      description:
+        "This project utilises the StyleGAN2 research paper to fully recreate the model and use it in order to be able to generate synthetic brain scan images learnt from the oasis brain dataset.  The inclusion of the style vectors allow for the model to reproduce images with different amounts of brain images featured.  Thus, showing the power of the updated models style vector. You cna learn more in the read me. ",
+      tags: [
+        {
+          name: "pytorch",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "cuda",
+          color: "green-text-gradient",
+        },
+        {
+          name: "github",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tesla,
+      source_code_link: "https://github.com/adamFittlerUQ/PatternAnalysis-2023/tree/topic-recognition/recognition/OASIS-Style-GAN2-s4696807",
+    },
+    {
+      name: "Design Portfolio",
+      description:
+        "This project utilises the StyleGAN2 research paper to fully recreate the model and use it in order to be able to generate synthetic brain scan images learnt from the oasis brain dataset.  The inclusion of the style vectors allow for the model to reproduce images with different amounts of brain images featured.  Thus, showing the power of the updated models style vector. You cna learn more in the read me. ",
+      tags: [
+        {
+          name: "pytorch",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "cuda",
+          color: "green-text-gradient",
+        },
+        {
+          name: "github",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tesla,
+      source_code_link: "https://github.com/adamFittlerUQ/PatternAnalysis-2023/tree/topic-recognition/recognition/OASIS-Style-GAN2-s4696807",
     }
   ];
   
